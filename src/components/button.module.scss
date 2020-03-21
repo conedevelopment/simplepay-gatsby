@@ -1,0 +1,21 @@
+@mixin btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8em 1em 0.5em;
+  border-radius: 2px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.primary {
+  @include btn();
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 0.9rem;
+
+  &:hover,
+  &:focus {
+    background-color: var(--black-color);
+  }
+}
