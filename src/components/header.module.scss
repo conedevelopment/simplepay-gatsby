@@ -1,3 +1,14 @@
+@mixin menu-marker {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  height: 5px;
+  background-color: var(--primary-color);
+  border-radius: 0 0 2px 2px;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -25,14 +36,21 @@
 
 .logo {
   margin-right: 3rem;
+  height: 22px;
 
-  img {
-    height: 22px;
+  svg {
+    height: 100%;
     width: auto;
   }
 }
 
 .navigation {
+  display: none;
+
+  @media (min-width: 50rem) {
+    display: block;
+  }
+
   ul {
     padding: 0;
     margin: 0;
@@ -45,29 +63,30 @@
   }
 
   a {
-    font-size: 1rem;
     color: var(--black-color);
     text-decoration: none;
     display: flex;
     align-items: center;
     height: 70px;
+    line-height: 1;
+    position: relative;
 
-    &:hover,
-    &:focus,
-    &.is-active {
+    &:hover {
       color: var(--primary-color);
-      position: relative;
 
       &::after {
-        content: '';
-        position: absolute;
-        right: 0;
-        top: 0;
-        left: 0;
-        height: 5px;
-        background-color: var(--primary-color);
-        border-radius: 0 0 2px 2px;
+        @include menu-marker();
       }
+    }
+  }
+}
+
+.is-active {
+  a {
+    color: var(--primary-color);
+
+    &::after {
+      @include menu-marker();
     }
   }
 }
