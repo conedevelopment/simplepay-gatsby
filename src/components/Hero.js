@@ -12,7 +12,7 @@ const Hero = () => {
           <p className={heroStyles.description}>Integráld a SimplePay fizetési megoldást áruházba bővítményünk segítségével. Értékesíts jobban, kényelmesebben.</p>
           <img className={heroStyles.simplepayLogo} src={'/simplepay-logo.png'} alt="SimplePay" />
         </div>
-        <img className={heroStyles.image} src={'/hero.png'} alt="Paying with debit card" />
+        <img className={heroStyles.image} src={'/hero.png'} alt="Fizetés bankkártyával" />
       </div>
     </section>
   )

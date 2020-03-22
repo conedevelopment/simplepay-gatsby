@@ -22,6 +22,9 @@ const Footer = () => {
             <li>
               <a href="https://conedevelopment.com/hu/rolunk/">Rólunk</a>
             </li>
+            <li>
+              <a href="https://conedevelopment.com/hu/adatkezelesi-tajekoztato/">Adatkezelési tájékoztató</a>
+            </li>
           </ul>
           <p className={footerStyles.copyright}>2020 © Cone Development</p>
         </div>

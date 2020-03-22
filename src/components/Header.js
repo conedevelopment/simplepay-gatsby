@@ -15,11 +15,11 @@ const Header = () => {
             <Logo />
           </Link>
           <nav className={headerStyles.navigation}>
-            <Scrollspy items={ ['section-1', 'section-2', 'section-3', 'section-4'] } currentClassName={headerStyles.isActive}>
-              <li><a href="#section-1">A bővítményről</a></li>
-              <li><a href="#section-2">A SimplePay-ről</a></li>
-              <li><a href="#section-3">GYIK</a></li>
-              <li><a href="#section-4">Így használd</a></li>
+            <Scrollspy items={ ['a-bovitmenyrol', 'a-simplepayrol', 'gyik', 'igy-hasznald'] } currentClassName={headerStyles.isActive}>
+              <li><a href="#a-bovitmenyrol">A bővítményről</a></li>
+              <li><a href="#a-simplepayrol">A SimplePay-ről</a></li>
+              <li><a href="#gyik">GYIK</a></li>
+              <li><a href="#igy-hasznald">Így használd</a></li>
             </Scrollspy>
           </nav>
         </div>
