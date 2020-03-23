@@ -9,16 +9,26 @@
 
 .inner {
   max-width: 36rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
   margin: 0 auto;
   text-align: center;
 }
 
 .title {
-  font-size: 2.4rem;
+  font-size: 1.6rem;
   margin: 0 0 1rem;
+
+  @media (min-width: 60rem) {
+    font-size: 2.4rem;
+  }
 }
 
 .description {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 0;
+
+  @media (min-width: 60rem) {
+    font-size: 1.2rem;
+  }
 }
