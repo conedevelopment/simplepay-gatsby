@@ -26,12 +26,12 @@ const Header = () => {
         <div className={headerStyles.col}>
           <a
             className={buttonStyles.primary}
-            href="https://github.com/thepinecode/simplepay-gateway/issues"
+            href="https://github.com/thepinecode/simplepay-gateway/"
             style={{
               marginRight: '1rem'
             }}
           >
-            GitHub támogatás
+            GitHub
           </a>
           <a
             className={buttonStyles.primary}

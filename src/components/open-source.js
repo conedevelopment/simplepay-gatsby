@@ -5,8 +5,8 @@ const OpenSource = () => {
   return (
     <section className={openStyles.openSource}>
       <div className={openStyles.inner}>
-        <h2 className={openStyles.title}>Szeretjük az open source-ot</h2>
-        <p className={openStyles.description}>At npm, Inc., we're proud to dedicate teams of full-time employees to operating the npm Registry, enhancing the CLI, improving JavaScript security, and other projects that support and nurture a vibrant open source community.</p>
+        <h2 className={openStyles.title}>Kedveljük az open source-ot</h2>
+        <p className={openStyles.description}>Sok mindent kapunk lényegében ingyen (például a WordPress-t), ez a kód és a web kultújára. Ezzel a bővíménnyel mi közvetlenül nem akarunk pénzt keresni, ezért is tudod ingyen beszerezni.</p>
       </div>
     </section>
   )
