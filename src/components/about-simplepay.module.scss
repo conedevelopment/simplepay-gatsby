@@ -15,11 +15,15 @@
 
 .inner {
   max-width: 70rem;
-  padding: 0 2rem;
+  padding: 0 1rem;
   margin: 0 auto;
   display: grid;
   align-items: center;
   justify-items: self-end;
+
+  @media (min-width: 40rem) {
+    padding: 0 2rem;
+  }
   
   @media (min-width: 50rem) {
     grid-column-gap: 5%;

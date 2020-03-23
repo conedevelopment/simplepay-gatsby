@@ -9,10 +9,13 @@
 
 .inner {
   max-width: 36rem;
-  padding-right: 1rem;
-  padding-left: 1rem;
+  padding: 0 1rem;
   margin: 0 auto;
-  text-align: center;
+  text-align: center;  
+  
+  @media (min-width: 40rem) {
+    padding: 0 2rem;
+  }
 }
 
 .title {
