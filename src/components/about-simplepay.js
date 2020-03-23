@@ -3,7 +3,8 @@ import aboutStyles from "./about-simplepay.module.scss"
 
 const AboutSimplePay = () => {
   return (
-    <section id="a-simplepayrol" className={aboutStyles.simplepay}>
+    <section id="a-simplepayrol-helper" className={aboutStyles.simplepay}>
+    <span id="a-simplepayrol" className={aboutStyles.anchorHelper} aria-hidden="true"></span>
       <div className={aboutStyles.inner}>
         <div>
           <h2 className={aboutStyles.title}>Mi az a SimplePay?</h2>

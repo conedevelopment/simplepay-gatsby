@@ -1,6 +1,12 @@
 .simplepay {
   padding: 6rem 0 6rem;
   background-color: #fafaff;
+  position: relative;
+}
+
+.anchor-helper {
+  position: absolute;
+  top: -70px;
 }
 
 .inner {

@@ -15,7 +15,7 @@ const Header = () => {
             <Logo />
           </Link>
           <nav className={headerStyles.navigation}>
-            <Scrollspy items={ ['a-bovitmenyrol', 'a-simplepayrol', 'gyik', 'igy-hasznald'] } currentClassName={headerStyles.isActive} offset={-70}>
+            <Scrollspy items={ ['a-bovitmenyrol-helper', 'a-simplepayrol-helper', 'gyik-helper', 'igy-hasznald-helper'] } currentClassName={headerStyles.isActive} offset={-70}>
               <li><a href="#a-bovitmenyrol">A bővítményről</a></li>
               <li><a href="#a-simplepayrol">A SimplePay-ről</a></li>
               <li><a href="#gyik">GYIK</a></li>

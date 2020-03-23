@@ -8,7 +8,8 @@ import AboutIcon03 from "../assets/svgs/about-icon-03.svg"
 
 const About = () => {
   return (
-    <section id="a-bovitmenyrol" className={aboutStyles.information}>
+    <section id="a-bovitmenyrol-helper" className={aboutStyles.information}>
+      <span id="a-bovitmenyrol" className={aboutStyles.anchorHelper} aria-hidden="true"></span>
       <div className={aboutStyles.heading}>
         <h2 className={aboutStyles.headingTitle}>A bővítményről</h2>
         <p className={aboutStyles.headingSubtitle}>Ezért jó választás a mi SimplePay bővítményünket választanod</p>

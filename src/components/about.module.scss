@@ -1,6 +1,12 @@
 .information {
   padding-bottom: 4rem;
   border-bottom: 1px solid #efefef;
+  position: relative;
+}
+
+.anchor-helper {
+  position: absolute;
+  top: -120px;
 }
 
 .inner {
