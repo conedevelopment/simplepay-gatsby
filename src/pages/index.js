@@ -7,6 +7,7 @@ import Hero from '../components/hero'
 import About from '../components/about'
 import AboutSimplePay from '../components/about-simplepay'
 import OpenSource from '../components/open-source'
+import Faq from '../components/faq'
 
 const IndexPage = () => {
   return (
@@ -16,6 +17,7 @@ const IndexPage = () => {
       <About />
       <AboutSimplePay />
       <OpenSource />
+      <Faq />
     </Layout>
   )
 }
