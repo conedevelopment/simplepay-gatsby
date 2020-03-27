@@ -5,7 +5,6 @@ module.exports = {
     author: `Cone Development`,
   },
   plugins: [
-    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-react-svg`,
       options: {
@@ -38,5 +37,6 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
   ]
 }
