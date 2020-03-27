@@ -1,7 +1,6 @@
 import React from "react"
 import aboutStyles from "./about.module.scss"
 
-
 import AboutIcon01 from "../assets/svgs/about-icon-01.svg"
 import AboutIcon02 from "../assets/svgs/about-icon-02.svg"
 import AboutIcon03 from "../assets/svgs/about-icon-03.svg"
