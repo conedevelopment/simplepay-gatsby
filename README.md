@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://conedevelopment.com/">
-    <img alt="Gatsby" src="https://conedevelopment.com/wp-content/themes/cone/assets/images/logo.svg" width="80" />
+    <img alt="Gatsby" src="https://conedevelopment.com/wp-content/themes/cone/assets/images/logo.svg" width="120" />
   </a>
 </p>
 <h1 align="center">
