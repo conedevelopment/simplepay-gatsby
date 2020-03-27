@@ -11,7 +11,7 @@ const About = () => {
       <span id="a-bovitmenyrol" className={aboutStyles.anchorHelper} aria-hidden="true"></span>
       <div className={aboutStyles.heading}>
         <h2 className={aboutStyles.headingTitle}>A bővítményről</h2>
-        <p className={aboutStyles.headingSubtitle}>Ezért jó választás a mi SimplePay bővítményünket választanod</p>
+        <p className={aboutStyles.headingSubtitle}>Ezért jó választás a mi SimplePay bővítményünk</p>
       </div>
       <div className={aboutStyles.inner}>
         <div className={aboutStyles.block}>
