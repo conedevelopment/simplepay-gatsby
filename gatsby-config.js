@@ -5,6 +5,14 @@ module.exports = {
     author: `Cone Development`,
   },
   plugins: [
+    `gatsby-plugin-sass`,
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'src',
+        path: `${__dirname}/src/`
+      }
+    },
     {
       resolve: `gatsby-plugin-react-svg`,
       options: {
@@ -12,14 +20,6 @@ module.exports = {
           include: /svgs/
         }
       }
-    },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/src/`,
-      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -37,6 +37,22 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sass`,
+    `gatsby-transformer-sharp`,
+    'gatsby-plugin-sharp',
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          'gatsby-remark-relative-images',
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 640,
+              linkImagesToOriginal: false
+            }
+          }
+        ]
+      }
+    }
   ]
 }

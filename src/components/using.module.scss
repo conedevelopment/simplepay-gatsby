@@ -1,0 +1,120 @@
+.wrapper {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  background-color: #fafaff;
+  position: relative;
+}
+
+.anchor-helper {
+  position: absolute;
+  top: -69px;
+}
+
+.inner {
+  max-width: 70rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+  display: grid;
+  grid-row-gap: 4rem;
+  grid-template-columns: 1fr;
+  align-items: start;
+
+  @media (min-width: 50rem) {
+    grid-column-gap: 10%;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.block-title {
+  line-height: 1.1;
+  font-size: 2rem;
+  margin: 0 0 2rem;
+
+  @media (min-width: 75rem) {
+    font-size: 2.6rem;
+  }
+}
+
+.block-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: section;
+
+  > * + * {
+    margin-top: 1.2rem;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    
+    &::before {
+      counter-increment: section;
+      content: counter(section);
+      font-size: 0.9rem;
+      font-weight: 700;
+      width: 2em;
+      height: 2em;
+      border-radius: 1em;
+      margin-right: 0.8rem;
+      background-color: var(--secondary-color);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  
+  a {
+    color: var(--black-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--primary-color);
+    }
+  }
+}
+
+.block-list-secondary {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: section;
+
+  > * + * {
+    margin-top: 1.2rem;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    
+    &::before {
+      counter-increment: section;
+      content: counter(section);
+      font-size: 0.9rem;
+      font-weight: 700;
+      width: 2em;
+      height: 2em;
+      border-radius: 1em;
+      margin-right: 0.8rem;
+      background-color: var(--tertirary-color);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  
+  a {
+    color: var(--black-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--primary-color);
+    }
+  }
+}

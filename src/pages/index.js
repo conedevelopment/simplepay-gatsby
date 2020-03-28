@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from 'gatsby'
 import Layout from '../components/layout'
 
 import SEO from "../components/seo"
@@ -8,6 +7,7 @@ import About from '../components/about'
 import AboutSimplePay from '../components/about-simplepay'
 import OpenSource from '../components/open-source'
 import Faq from '../components/faq'
+import Using from '../components/using'
 
 const IndexPage = () => {
   return (
@@ -18,6 +18,7 @@ const IndexPage = () => {
       <AboutSimplePay />
       <OpenSource />
       <Faq />
+      <Using />
     </Layout>
   )
 }
