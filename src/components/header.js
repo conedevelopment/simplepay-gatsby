@@ -16,10 +16,10 @@ const Header = () => {
           </Link>
           <nav className={headerStyles.navigation}>
             <Scrollspy items={ ['a-bovitmenyrol-helper', 'a-simplepayrol-helper', 'gyik-helper', 'igy-hasznald-helper'] } currentClassName={headerStyles.isActive} offset={-70}>
-              <li><a href="http://localhost:8000#a-bovitmenyrol">A bővítményről</a></li>
-              <li><a href="http://localhost:8000#a-simplepayrol">A SimplePay-ről</a></li>
-              <li><a href="http://localhost:8000#gyik">GYIK</a></li>
-              <li><a href="http://localhost:8000#igy-hasznald">Így használd</a></li>
+              <li><Link to="/#a-bovitmenyrol">A bővítményről</Link></li>
+              <li><Link to="/#a-simplepayrol">A SimplePay-ről</Link></li>
+              <li><Link to="/#gyik">GYIK</Link></li>
+              <li><Link to="/#igy-hasznald">Így használd</Link></li>
             </Scrollspy>
           </nav>
         </div>
