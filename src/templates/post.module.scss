@@ -75,6 +75,18 @@
     color: var(--black-color);
   }
 
+  a {
+    strong {
+      color: var(--primary-color);
+    }
+  
+    &:hover {
+      strong {
+        color: #1081d0;
+      }
+    }
+  }
+
   ul,
   ol {
     > * + * {
