@@ -35,7 +35,7 @@ const Header = () => {
           </a>
           <a
             className={buttonStyles.primary}
-            href="https://github.com/thepinecode/simplepay-gateway/archive/master.zip"
+            href="bit.ly/simplepay-woocommerce"
           >
             Letöltés
           </a>
