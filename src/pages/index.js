@@ -12,7 +12,7 @@ import Using from '../components/using'
 const IndexPage = () => {
   return (
     <Layout>
-      <SEO title="Kezdőlap" description="With all of your communication and tools in one place, remote teams will stay productive no matter where you’re working from." />
+      <SEO title="Kezdőlap" description="Integráld a SimplePay fizetési megoldást áruházba bővítményünk segítségével. Értékesíts jobban, kényelmesebben." />
       <Hero />
       <About />
       <AboutSimplePay />
