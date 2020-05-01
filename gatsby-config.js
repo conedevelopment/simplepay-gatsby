@@ -5,6 +5,7 @@ module.exports = {
     author: `Cone Development`,
   },
   plugins: [
+    `gatsby-plugin-preact`,
     `gatsby-plugin-sass`,
     {
       resolve: 'gatsby-source-filesystem',
