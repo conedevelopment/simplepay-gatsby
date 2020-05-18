@@ -27,7 +27,7 @@ const About = () => {
         <div className={aboutStyles.block}>
           <AboutIcon03 />
           <h3 className={aboutStyles.title}>Tudja, amit kell</h3>
-          <p className={aboutStyles.description}>Biztonságos, többször tesztelt megoldás, amit jelenleg is aktívan fut több helyen is.</p>
+          <p className={aboutStyles.description}>Biztonságos, többször tesztelt megoldás, ami jelenleg is aktívan fut több helyen.</p>
         </div>
       </div>
     </section>
