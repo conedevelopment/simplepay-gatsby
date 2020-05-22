@@ -1,8 +1,6 @@
 .wrapper {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  border-top: 1px solid #efefef;
-  border-bottom: 1px solid #efefef;
   background-color: #fafaff;
   position: relative;
 }
@@ -13,7 +11,7 @@
 }
 
 .inner {
-  max-width: 70rem;
+  max-width: 74rem;
   padding: 0 1rem;
   margin: 0 auto;
   display: grid;
@@ -55,13 +53,13 @@
     &::before {
       counter-increment: section;
       content: counter(section);
-      font-size: 0.9rem;
+      font-size: 0.8rem;
       font-weight: 700;
       width: 2em;
       height: 2em;
-      border-radius: 1em;
+      border-radius: 0.25rem;
       margin-right: 0.8rem;
-      background-color: var(--secondary-color);
+      background: linear-gradient(45deg, var(--primary-color), var(--primary-hover-color));
       color: #fff;
       display: flex;
       align-items: center;
@@ -98,13 +96,13 @@
     &::before {
       counter-increment: section;
       content: counter(section);
-      font-size: 0.9rem;
+      font-size: 0.8rem;
       font-weight: 700;
       width: 2em;
       height: 2em;
-      border-radius: 1em;
+      border-radius: 0.25rem;
       margin-right: 0.8rem;
-      background-color: var(--tertirary-color);
+      background: linear-gradient(45deg, var(--primary-color), var(--primary-hover-color));
       color: #fff;
       display: flex;
       align-items: center;

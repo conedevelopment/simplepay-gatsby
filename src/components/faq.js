@@ -10,7 +10,7 @@ const Faq = () => {
           <h2 className={faqStyles.title}>Kérdésed van?</h2>
           <div className={faqStyles.block}>
             <h3 className={faqStyles.blockTitle}>Valóban ingyenes a bővímtény?</h3>
-            <p className={faqStyles.blockDescription}>Igen, ezt a bővítményt <a href="https://github.com/thepinecode/simplepay-gateway/blob/master/LICENSE">MIT licensz</a> alatt költségek nélkül töltheted le és használhatod.</p>
+            <p className={faqStyles.blockDescription}>Igen, ezt a bővítményt <a href="https://github.com/thepinecode/simplepay-gateway/blob/master/LICENSE">MIT licensz</a> alatt költségek nélkül töltheted le és használhatod. Sok mindent kapunk lényegében ingyen (például WordPress), ez a kód és a web kultújára, amit mi nagyon kedvelünk. Ezzel a bővíménnyel mi közvetlenül nem akarunk pénzt keresni, ezért is tudod ingyen beszerezni.</p>
           </div>
           <div className={faqStyles.block}>
             <h3 className={faqStyles.blockTitle}>Jár hozzá frissítés?</h3>

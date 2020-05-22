@@ -3,23 +3,23 @@
 :root {
   font-size: 100%;
 
-  --primary-color: #2a71a3;
-  --secondary-color: #2A98A3;
-  --tertirary-color: #a32a78;
-  --black-color: #000;
-  --text-color: #676767;
+  --primary-color: #8058d9;
+  --primary-hover-color: #8158d9be;
+  --primary-light-color: #d3bfffbe;
+  --black-color: #24292e;
+  --text-color: #616161;
 }
 
 ::selection {
-  background: var(--secondary-color);
+  background: var(--primary-color);
   color: #fff;
 }
 
 body {
-  font-family: 'fira-sans', sans-serif;
-  margin-top: 70px;
+  font-family: open-sans, sans-serif;
   line-height: 1.65;
   background-color: #fff;
+  font-size: 1.035rem;
 }
 
 h1,
@@ -30,6 +30,7 @@ h5,
 h6 {
   font-weight: 800;
   line-height: 1.3;
+  font-family: 'fira-sans', sans-serif;
 }
 
 a {

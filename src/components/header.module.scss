@@ -1,27 +1,11 @@
-@mixin menu-marker {
-  content: '';
-  position: absolute;
-  right: 0;
-  top: 0;
-  left: 0;
-  height: 5px;
-  background-color: var(--primary-color);
-  border-radius: 0 0 2px 2px;
-}
-
 .header {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
   background-color: #fff;
-  border-bottom: 1px solid #efefef;
   z-index: 20;
 }
 
 .inner {
-  height: 70px;
-  max-width: 80rem;
+  height: 100px;
+  max-width: 74rem;
   padding: 0 1rem;
   margin: 0 auto;
   display: flex;
@@ -39,11 +23,10 @@
 }
 
 .logo {
-  margin-right: 2rem;
+  margin-right: 1rem;
   height: 20px;
 
   @media (min-width: 60rem) {
-    margin-right: 3rem;
     height: 22px;
   }
 
@@ -55,6 +38,8 @@
 
 .navigation {
   display: none;
+  margin-right: 2rem;
+  font-family: 'fira-sans', sans-serif;
 
   @media (min-width: 60rem) {
     display: block;
@@ -76,26 +61,15 @@
     text-decoration: none;
     display: flex;
     align-items: center;
-    height: 70px;
     line-height: 1;
     position: relative;
+    text-transform: uppercase;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    transition: 0.15s ease;
 
     &:hover {
       color: var(--primary-color);
-
-      &::after {
-        @include menu-marker();
-      }
-    }
-  }
-}
-
-.is-active {
-  a {
-    color: var(--primary-color);
-
-    &::after {
-      @include menu-marker();
     }
   }
 }
