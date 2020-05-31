@@ -7,7 +7,7 @@
 
 .anchor-helper {
   position: absolute;
-  top: -69px;
+  top: 0;
 }
 
 .inner {
@@ -119,4 +119,10 @@
       color: var(--primary-color);
     }
   }
+}
+
+.info {
+  color: #747474;
+  font-size: 0.9rem;
+  margin-top: 2rem;
 }

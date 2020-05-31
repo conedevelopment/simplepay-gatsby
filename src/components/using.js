@@ -5,7 +5,7 @@ import usingStyles from "./using.module.scss"
 const Using = () => {
   const data = useStaticQuery(graphql`
     query {
-      allMarkdownRemark {
+      allMarkdownRemark(sort: {fields: frontmatter___order, order: ASC}) {
         edges {
           node {
             frontmatter {
@@ -27,9 +27,10 @@ const Using = () => {
         <div className={usingStyles.block}>
           <h2 className={usingStyles.blockTitle}>Akik már használják</h2>
           <ul className={usingStyles.blockList}>
-              <li><a href="https://bumm.co/">bumm! - Küldj többet egy kártyánál!</a></li>
-              <li><a href="https://themamakin.com/">the Mama Kin Jewelery</a></li>
+            <li><a href="https://bumm.co/">bumm! - Küldj többet egy kártyánál!</a></li>
+            <li><a href="https://themamakin.com/">the Mama Kin Jewelery</a></li>
           </ul>
+          <p className={usingStyles.info}>A fenti listát szeretnénk bővíteni. Amennyiben használod a bővítményünket, úgy megköszönjük, ha elküldöd nekünk az oldal URL-jét e-mailben a következő címre: <a href="mailto:hello@conedevelopment.com">hello@conedevelopment.com</a>.</p>
         </div>
         <div className={usingStyles.block}>
           <h2 className={usingStyles.blockTitle}>Így használd</h2>

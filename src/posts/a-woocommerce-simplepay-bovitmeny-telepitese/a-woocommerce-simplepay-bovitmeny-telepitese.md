@@ -2,6 +2,7 @@
 date: "2020. 03. 29."
 title: "A WooCommerce SimplePay bővítmény telepítése"
 description: "A WordPress SimplePay bővítmény telepítése WooCommerce számára egyszerűen és könnyen véghezvihető."
+order: 2
 ---
 
 __A SimpePay bővítményt manuálisan tudjuk telepíteni, ami szerencsére WordPress-ben nem nagy kihívás. Annyit kell tennünk, hogy letöltjük a bővítményt, majd feltöltés után telepítjük a kiválasztott WordPress oldalra.__

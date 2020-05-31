@@ -2,6 +2,7 @@
 date: "2020. 05. 22."
 title: "A SimplePay bővítmény beállítási lehetőségei"
 description: "WooCommerce fizetési kapu esetén az adott megoldás bonyolultságát többnyire a fizetési szolgáltató határozza meg."
+order: 3
 ---
 
 __A bővítmény beállítása a legtöbb esetben magától értetődő. WooCommerce fizetési kapu esetén az adott megoldás bonyolultságát többnyire a fizetési szolgáltató határozza meg.__
@@ -41,25 +42,3 @@ Több kereskedői fiók esetén, a megfelelő devizanemet figyelembe véve kell 
 ## Visszatérítések
 
 Visszatérítés a WooCommerce (WordPress) és az OTP SimplePay oldaláról is kezdeményezhető. WooCommerce-en belül navigáljunk a visszatérítendő rendelés adminisztrációs oldalára (WooCommerce / Rendelések / …), majd a tétel panel alján kattintsunk a “Visszatérítés” gombra.
-
-## Korlátozások
-
-Az alább felsorolt korlátozásokat kérünk vedd figyelembe.
-
-### Támogatott devizák
-
-Jelenleg (a SimplePay által) támogatott devizák: __HUF__, __EUR__ és __USD__.
-
-### Adók
-
-A WooCommerce (WordPress) máshogy kezeli az adókat mint a SimplePay. A lehetséges áreltérések megelőzése érdekében, a bruttó árak kerülnek átadása, de a feltüntetett adó mértéke 0.
-
-### Kedvezmények
-
-A WooCommerce (WordPress) máshogy kezeli a kedvezményeket mint a SimplePay. A lehetséges áreltérések megelőzése érdekében, a kedvezményes árak kerülnek átadása, de a feltüntetett kedvezmény mértéke 0.
-
-### Ismétlődő fizetések
-
-Jelenleg nem támogatjuk az ismétlődő fizetéseket. Miért? Mert a tranzakciók indítása, ütemezése és kezelése az áruházat terhelik. Ennek üzembiztos megvalósítása sok áruház esetében nem garantált.
-
-
