@@ -18,7 +18,7 @@ const Faq = () => {
           </div>
           <div className={faqStyles.block}>
             <h3 className={faqStyles.blockTitle}>Kérhetek tőletek segítséget?</h3>
-            <p className={faqStyles.blockDescription}>Személyesen segítséget nem áll módunkban ingyen biztosítani. Ettől függetlenül a fejlesztőknek a <a href="https://github.com/thepinecode/simplepay-gateway/issues">GitHub</a> nyitva áll, ha javítani szeretnének a kódon, vagy egy hibát jelenteni. Lejjebb számos leírással segítünk abban is, hogy hogyan tudod te önállóan beállítani.</p>
+            <p className={faqStyles.blockDescription}>Személyes segítséget nem áll módunkban díjmentesen biztosítani. Ettől függetlenül fejlesztőknek a <a href="https://github.com/thepinecode/simplepay-gateway/issues">GitHub</a> nyitva áll, ha javítani szeretnének a kódon, vagy egy hibát jelenteni. Lejjebb számos leírással segítünk abban is, hogy hogyan tudod te magad önállóan beállítani.</p>
           </div>
           <div className={faqStyles.block}>
             <h3 className={faqStyles.blockTitle}>A bővítmény támogatja az ismétlődő fizetéseket?</h3>
