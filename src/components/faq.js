@@ -29,8 +29,8 @@ const Faq = () => {
             <p className={faqStyles.blockDescription}>Jelenleg USD, EUR és HUF. Amennyiben az OTP újabb pénznemeket vezet be, mi is bővítjük a támogatást.</p>
           </div>
           <div className={faqStyles.block}>
-            <h3 className={faqStyles.blockTitle}>Az OTP ellenőrízte a bővítményt?</h3>
-            <p className={faqStyles.blockDescription}>Igen. Az áruházban való élesítés előtt az OTP munkatársai lefuttatnak egy teszt vásárlást amely során a bővítmény és az adott áruház funkcionalitása is tesztelés alá kerül.</p>
+            <h3 className={faqStyles.blockTitle}>Ez egy ellenőrzött a bővítményt?</h3>
+            <p className={faqStyles.blockDescription}>Igen. Az áruházban való élesítés előtt az OTP Mobil Kft. munkatársai lefuttatnak egy teszt vásárlást amely során a bővítmény és az adott áruház funkcionalitása is tesztelés alá kerül.</p>
           </div>
         </div>
         <img className={faqStyles.image} src={'/faq.png'} alt="Kérdéseken gondolkodó ember" />
