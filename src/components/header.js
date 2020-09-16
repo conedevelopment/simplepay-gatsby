@@ -26,7 +26,7 @@ const Header = () => {
           </nav>
           <a
             className={buttonStyles.primary}
-            href="https://github.com/thepinecode/simplepay-gateway/"
+            href="https://github.com/conedevelopment/simplepay-gateway"
             style={{
               marginRight: '1rem'
             }}
