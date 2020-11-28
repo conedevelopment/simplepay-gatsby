@@ -27,7 +27,6 @@ const Using = () => {
         <div className={usingStyles.block}>
           <h2 className={usingStyles.blockTitle}>Akik már használják</h2>
           <ul className={usingStyles.blockList}>
-            <li><a href="https://bumm.co/" rel="nofollow">bumm! - Küldj többet egy kártyánál!</a></li>
             <li><a href="https://themamakin.com/" rel="nofollow">the Mama Kin Jewelery</a></li>
             <li><a href="https://www.bvfheating.hu/" rel="nofollow">BVF Heating Solutions - Elektromos padlófűtés</a></li>
             <li><a href="https://www.noirot.hu/" rel="nofollow">Noirot fűtőpanel</a></li>
