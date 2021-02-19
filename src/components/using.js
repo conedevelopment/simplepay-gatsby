@@ -32,6 +32,7 @@ const Using = () => {
             <li><a href="https://www.noirot.hu/" rel="nofollow">Noirot fűtőpanel</a></li>
             <li><a href="https://www.caleo.hu/" rel="nofollow">Caleo fűtőfilm</a></li>
             <li><a href="https://zelenaksutihaz.hu/" rel="nofollow">Zelenák Sütiház</a></li>
+            <li><a href="https://szokimondoka.hu/webaruhaz/" rel="nofollow">Szókimondóka</a></li>
           </ul>
           <p className={usingStyles.info}>A fenti listát szeretnénk bővíteni. Amennyiben használod a bővítményünket, úgy megköszönjük, ha elküldöd nekünk az oldal URL-jét e-mailben a következő címre: <a href="mailto:hello@conedevelopment.com">hello@conedevelopment.com</a>.</p>
         </div>
