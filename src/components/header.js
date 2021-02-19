@@ -35,7 +35,7 @@ const Header = () => {
           </a>
           <a
             className={buttonStyles.primary}
-            href="https://bit.ly/simplepay-woocommerce"
+            href="https://bit.ly/simplepay-new-repo"
           >
             Letöltés
           </a>
