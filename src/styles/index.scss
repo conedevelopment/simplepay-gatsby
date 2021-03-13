@@ -40,3 +40,21 @@ a {
     color: #1081d0;
   }
 }
+
+.gatsby-highlight {
+  position: relative;
+
+  &::before {
+    content: attr(data-language);
+    position: absolute;
+    top: 0;
+    right: 2rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.8375rem;
+    font-weight: 700;
+    display: inline-block;
+    padding: 0.25em 0.65em;
+  }
+}

@@ -5,6 +5,8 @@ import Layout from '../components/layout'
 import postStyles from "./post.module.scss"
 import SEO from "../components/seo"
 
+import "../styles/prism.css";
+
 export const query = graphql`
   query($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
