@@ -34,6 +34,7 @@ const Using = () => {
             <li><a href="https://zelenaksutihaz.hu/" rel="nofollow">Zelenák Sütiház</a></li>
             <li><a href="https://szokimondoka.hu/webaruhaz/" rel="nofollow">Szókimondóka</a></li>
             <li><a href="https://www.kaptarko.hu/" rel="nofollow">Kaptárkő Egyesület</a></li>
+            <li><a href="https://olajstore.hu/" rel="nofollow">Olajstore</a></li>
           </ul>
           <p className={usingStyles.info}>A fenti listát szeretnénk bővíteni. Amennyiben használod a bővítményünket, úgy megköszönjük, ha elküldöd nekünk az oldal URL-jét e-mailben a következő címre: <a href="mailto:hello@conedevelopment.com">hello@conedevelopment.com</a>.</p>
         </div>
