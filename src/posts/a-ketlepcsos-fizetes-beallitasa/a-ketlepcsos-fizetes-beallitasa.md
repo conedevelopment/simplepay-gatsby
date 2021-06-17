@@ -40,7 +40,7 @@ add_filter('cone_simplepay_enable_two_step_payment', function ($enabled, $order)
     }
 
     return $enabled;
-});
+}, 10, 2);
 ```
 
 ## A második lépcső indítása
