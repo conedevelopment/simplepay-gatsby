@@ -1,5 +1,5 @@
 .wrapper {
-  max-width: 40rem;
+  max-width: 46rem;
   padding: 4rem 1rem;
   margin: 0 auto;
 }
@@ -111,5 +111,11 @@
     margin-top: 3rem;
     border: none;
     border-top: 1px solid #efefef;
+  }
+
+  blockquote {
+    background-color: rgba(0, 0, 0, 0.025);
+    border-left: 0.5rem solid var(--primary-color);
+    padding: 1rem 1rem 1rem 1.5rem;
   }
 }
