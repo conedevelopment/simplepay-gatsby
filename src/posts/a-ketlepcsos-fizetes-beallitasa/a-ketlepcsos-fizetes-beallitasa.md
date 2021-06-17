@@ -29,14 +29,12 @@ A bővítmény beállításoknál kapcsolhatjuk be a kétlépcsős fizetést.
 
 > Figyelem: ennek bekapcsolásakor minden SimplePay tranzakció kétlépcsőssé válik.
 
-## Csak bizonyos rendeléseknél szeretném bekapcsolni a kétpécsős fizetést. Hogyan tehetem meg?
+## Csak bizonyos rendeléseknél szeretném be- vagy kikapcsolni a kétpécsős fizetést. Hogyan tehetem meg?
 
-Mivel ez is előfordulhat, így ennek kiküszöbölésére – hogy nem mindig csak a vagy ki, vagy be kelljen kapcsolni az opciót - egy WordPress filtert alkalmazunk:
+Mivel ez is előfordulhat, így ennek kiküszöbölésére egy WordPress filtert alkalmazunk:
 
 ```php
-use WC_Order;
-
-add_filter('cone_simplepay_enable_two_step_payment', static function (bool $enabled, WC_Order $order): bool {
+add_filter('cone_simplepay_enable_two_step_payment', function ($enabled, $order) {
     if ($order->someCondition()) {
         return ! $enabled;
     }
