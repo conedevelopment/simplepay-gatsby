@@ -21,7 +21,7 @@ const About = () => {
         </div>
         <div className={aboutStyles.block}>
           <AboutIcon02 />
-          <h3 className={aboutStyles.title}>Valóban ingyen van</h3>
+          <h3 className={aboutStyles.title}>Ingyenes</h3>
           <p className={aboutStyles.description}>Ezért a bővítményért jelenleg nem kérünk pénzt. Open source módon fejlesztjük, szabadon használhatod.</p>
         </div>
         <div className={aboutStyles.block}>
