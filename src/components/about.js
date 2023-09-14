@@ -22,7 +22,7 @@ const About = () => {
         <div className={aboutStyles.block}>
           <AboutIcon02 />
           <h3 className={aboutStyles.title}>Valóban ingyen van</h3>
-          <p className={aboutStyles.description}>Ezért a bővítményért mi nem kérünk pénzt. Open source módon fejlesztjük (MIT licensz alatt), bárki szabadon használhatja.</p>
+          <p className={aboutStyles.description}>Ezért a bővítményért jelenleg nem kérünk pénzt. Open source módon fejlesztjük, szabadon használhatod.</p>
         </div>
         <div className={aboutStyles.block}>
           <AboutIcon03 />
